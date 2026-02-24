@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy
-scikit-learn
-xgboost
 matplotlib
-joblib
+joblib.dump(model)
+scikit-learn==1.6.1
+xgboost==3.1.0 
