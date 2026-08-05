@@ -401,7 +401,7 @@ def main_app():
     # Display model comparison plot
     st.subheader("Model Comparison")
     if os.path.exists('model_comparison.png'):
-        st.image('model_comparison.png', caption="Model Predictions vs Actual Speeds", use_column_width=True)
+        st.image('model_comparison.png', caption="Model Predictions vs Actual Speeds", use_container_width=True)
     else:
         st.error("Model comparison plot not found. Please ensure the script has run successfully.")
 
